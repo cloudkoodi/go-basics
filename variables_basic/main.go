@@ -1,17 +1,15 @@
 package main
 
-import "fmt"
+import "variable_basics/aulas"
 
 func main() {
-	// int age = 33; //C++ way
-	var age int = 33
-	fmt.Println("Age:", age)
 
-	var name = "Gabriel"
-	fmt.Println("Your name is:", name)
+	// 15 - Variables in Go
+	aulas.Variables()
 
-	_ = name
+	// 16 - Multi Declarations
+	aulas.MultiDeclaration()
 
-	s := "Learning goLang!"
-	fmt.Println(s)
+	aulas.VariablesAndDeclarations()
+
 }
