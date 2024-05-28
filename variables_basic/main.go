@@ -15,4 +15,7 @@ func main() {
 
 	//18 - Types and Zero Values
 	aulas.TypesAndZeroValues()
+
+	//24 - Package Fmt
+	aulas.PackageFmt()
 }
