@@ -1,21 +1,23 @@
 package main
 
-import "variable_basics/aulas"
+import "variable_basics/challenges"
 
 func main() {
 
 	// 15 - Variables in Go
-	aulas.Variables()
+	//aulas.Variables()
 
 	// 16 - Multi Declarations
-	aulas.MultiDeclaration()
+	//aulas.MultiDeclaration()
 
 	//17 - Variables and Declarations
-	aulas.VariablesAndDeclarations()
+	//aulas.VariablesAndDeclarations()
 
 	//18 - Types and Zero Values
-	aulas.TypesAndZeroValues()
+	//aulas.TypesAndZeroValues()
 
 	//24 - Package Fmt
-	aulas.PackageFmt()
+	//aulas.PackageFmt()
+
+	challenges.Challenge2()
 }

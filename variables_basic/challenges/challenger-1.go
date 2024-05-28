@@ -1,13 +1,13 @@
-package main
+package challenges
 
 import "fmt"
 
-func main() {
+func Challenge1() {
 
-	coding1()
-	coding2()
-	coding3()
-	coding4()
+	declare1()
+	declare2()
+	declare3()
+	declare4()
 
 }
 
@@ -24,7 +24,7 @@ func main() {
 	Do you wonder what Gopher is?  Check it here: https://blog.golang.org/gopher
 */
 
-func coding1() {
+func declare1() {
 	var a int
 	var b float64
 	var c bool
@@ -48,7 +48,7 @@ func coding1() {
 		4. Change the program to run without error using the blank identifier (_)
 */
 
-func coding2() {
+func declare2() {
 
 	var (
 		a int
@@ -78,7 +78,7 @@ func coding2() {
 	-----------------------------------------
 */
 
-func coding3() {
+func declare3() {
 
 	var a float64 = 7.1
 
@@ -110,7 +110,7 @@ func coding3() {
 
 var version = "3.1"
 
-func coding4() {
+func declare4() {
 	// ERROR -> A string is initialized only using double quotes ("")
 	// name = 'Golang'
 
