@@ -10,6 +10,9 @@ func main() {
 	// 16 - Multi Declarations
 	aulas.MultiDeclaration()
 
+	//17 - Variables and Declarations
 	aulas.VariablesAndDeclarations()
 
+	//18 - Types and Zero Values
+	aulas.TypesAndZeroValues()
 }
