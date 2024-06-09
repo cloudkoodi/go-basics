@@ -61,7 +61,7 @@ func main() {
 
 	// declaring a multi-dimensional arrays (array of arrays or matrix)
 	balances := [2][3]int{
-		[3]int{5, 6, 7}, //[3]int is optional
+		{5, 6, 7}, //[3]int is optional
 		{8, 9, 10},
 	}
 
